@@ -30,12 +30,10 @@
     "lezer-python": "^0.12.0",
     "lezer-rust": "^0.12.0",
     "lezer-tree": "^0.12.3",
-    "lezer-xml": "^0.12.0",
-    "style-mod": "^3.1.0",
-    "w3c-keyname": "^2.2.4"
+    "lezer-xml": "^0.12.0"
   },
   "dependencies": {
-    "style-mod": "^1.0.2",
-    "w3c-keyname": "^2.1.0"
+    "style-mod": "^3.1.0",
+    "w3c-keyname": "^2.2.4"
   }
 }
