@@ -18,7 +18,7 @@ export default {
         compilerOptions: {
           lib: ['es5', 'es6', 'dom'],
           strict: false,
-          target: 'es5'
+          target: 'es6'
         },
         include: null,
       },

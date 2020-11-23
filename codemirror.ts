@@ -22,36 +22,8 @@ export {html} from "./codemirror.next/lang-html/src/html"
 export {java} from "./codemirror.next/lang-java/src/java"
 export {javascript} from "./codemirror.next/lang-javascript/src/javascript"
 export {json} from "./codemirror.next/lang-json/src/json"
-export {python} from "./codemirror.next/lang-python/src/python"
-export {rust} from "./codemirror.next/lang-rust/src/rust"
+//export {python} from "./codemirror.next/lang-python/src/python"
+//export {rust} from "./codemirror.next/lang-rust/src/rust"
 //export {sql} from "./codemirror.next/lang-sql/src/sql"
 export {xml} from "./codemirror.next/lang-xml/src/xml"
 
-
-export const basicSetup: Extension = [
-  lineNumbers(),
-  highlightSpecialChars(),
-  history(),
-  foldGutter(),
-  drawSelection(),
-  EditorState.allowMultipleSelections.of(true),
-  indentOnInput(),
-  defaultHighlightStyle,
-  bracketMatching(),
-  closeBrackets(),
-  autocompletion(),
-  rectangularSelection(),
-  highlightActiveLine(),
-  highlightSelectionMatches(),
-  keymap([
-    ...closeBracketsKeymap,
-    ...defaultKeymap,
-    ...searchKeymap,
-    ...historyKeymap,
-    ...foldKeymap,
-    ...commentKeymap,
-    ...gotoLineKeymap,
-    ...completionKeymap,
-    ...lintKeymap
-  ])
-]
